@@ -1,0 +1,39 @@
+Candidates: Seventeen Syllables of Debugging
+Syllables checked with a vowel-group counter (small override table for
+words like printf, a.m., eighth) and re-counted by hand. All six are 5-7-5.
+
+#1  (chosen: 3am cursor; the turn is that the culprit is the author)
+three a.m. cursor
+blinks beside the failing test
+I wrote this last week
+  syllables: 5 / 7 / 5  OK
+
+#2  (printf debugging; the turn is the log line that is absent)
+printf debugging
+here, here, here, here, here, here, here
+the eighth never prints
+  syllables: 5 / 7 / 5  OK
+
+#3  (rubber duck; the turn is that explaining finds the bug)
+I explain it twice
+to the duck, line by slow line
+mid-sentence, I see
+  syllables: 5 / 7 / 5  OK
+
+#4  (breakpoint; the turn is a bug that only exists when unobserved)
+the breakpoint holds still
+all the values look correct
+I let go. It dies.
+  syllables: 5 / 7 / 5  OK
+
+#5  (stack trace; the turn is blaming the framework against the evidence)
+stack trace, forty lines
+all framework but one line, mine
+I blame the framework
+  syllables: 5 / 7 / 5  OK
+
+#6  (all-nighter; the turn is dawn arriving over a one-character fix)
+all night, one comma
+hiding in the config file
+the birds start singing
+  syllables: 5 / 7 / 5  OK
